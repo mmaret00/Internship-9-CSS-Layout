@@ -1,0 +1,30 @@
+.future {
+  margin-bottom: 100px;
+}
+
+.future__left-side {
+  width: 50%;
+}
+
+.future__left-side__top__title {
+  font-size: 50px;
+}
+
+.future__left-side__top__description {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.future__left-side__top__title,
+.future__left-side__top__description {
+  padding: 15px 50px;
+}
+
+.future,
+.future__left-side__bottom {
+  display: flex;
+}
+
+.future__left-side__bottom {
+  padding: 0 30px;
+}

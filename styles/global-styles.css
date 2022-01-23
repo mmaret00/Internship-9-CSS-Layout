@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  background-color: #191919;
+  color: white;
+  font-family: Helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #cf8c29;
+  color: black;
+}
+
+.statistic {
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: #cf8c29;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 250px;
+}
+
+.statistic__percentage {
+  font-size: 50px;
+  padding: 10px 0;
+}
+
+.statistic__figure {
+  font-size: 20px;
+  padding: 30px;
+}
+
+.statistic__source {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.statistic__percentage,
+.statistic__figure,
+.statistic__source {
+  padding-left: 20px;
+  padding-right: 20px;
+}

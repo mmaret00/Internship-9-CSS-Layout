@@ -1,0 +1,26 @@
+.navigation-bar {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-bar__options__drop-menus {
+  margin: 20px;
+}
+
+.navigation-bar__options__drop-menus__link {
+  color: #a4abb4;
+  margin: 15px;
+}
+
+#navigation-bar__options__contact-button {
+  background-color: white;
+}
+
+#navigation-bar__options__sign-in-button {
+  background-color: black;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+}
